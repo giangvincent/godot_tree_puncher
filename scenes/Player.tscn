@@ -5,20 +5,19 @@
 [ext_resource path="res://sprites/character/zombie_head.png" type="Texture" id=3]
 [ext_resource path="res://sprites/character/zombie_body.png" type="Texture" id=4]
 
-[node name="Player" type="Node"]
+[node name="Player" type="Node2D"]
 
 [node name="Head" type="Sprite" parent="."]
-position = Vector2( 176.842, 87.3684 )
 texture = ExtResource( 3 )
 
 [node name="Body" type="Sprite" parent="."]
-position = Vector2( 176.842, 146.492 )
+position = Vector2( 0, 62.2686 )
 texture = ExtResource( 4 )
 
 [node name="Leg" type="Sprite" parent="."]
-position = Vector2( 176.354, 203.177 )
+position = Vector2( 0, 119.149 )
 texture = ExtResource( 1 )
 
 [node name="Arm" type="Sprite" parent="."]
-position = Vector2( 176.469, 155.757 )
+position = Vector2( 0, 65.861 )
 texture = ExtResource( 2 )
